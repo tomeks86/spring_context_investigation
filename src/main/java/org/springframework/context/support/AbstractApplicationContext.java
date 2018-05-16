@@ -1086,7 +1086,6 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	@Override
 	public Object getBean(String name) throws BeansException {
 		assertBeanFactoryActive();
-//		System.out.println("tu kuźwa jestem");
 		return getBeanFactory().getBean(name);
 	}
 
